@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>My Portfolio</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Hello, I'm <span>Vinothini perumal</span></h1>
+    <h2>Full Stack Developer</h2>
+    <p>I create responsive websites and web applications.</p>
+    <a href="#projects" class="btn">View My Projects</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am an aspiring Full Stack Developer interested in
+        web development, frontend and backend technologies.
+        I enjoy learning new technologies and creating projects.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>React.js</div>
+        <div>Node.js</div>
+        <div>MongoDB</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div id="projectList" class="projects">
+        Loading projects...
+    </div>
+
+    <h3>Add New Project</h3>
+    <form id="projectForm">
+        <input type="text" id="title"
+            placeholder="Project Title" required>
+
+        <textarea id="description"
+            placeholder="Project Description" required></textarea>
+
+        <input type="text" id="technologies"
+            placeholder="Technologies (HTML, CSS, JS)">
+
+        <button type="submit">Add Project</button>
+    </form>
+
+    <p id="message"></p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: vinothiniperumal08@gmail.com</p>
+    <p>LinkedIn: vinothini perumal</p>
+    <p>GitHub: Vinothini perumal08</p>
+</section>
+
+<footer>
+    <p>© 2026 Vinothini perumal | Personal Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
